@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    android:layout_marginBottom="4dp">
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textRollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student RollNo"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/textCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student City"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btnremove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        ></Button>
+
+</>
